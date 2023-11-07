@@ -1,0 +1,78 @@
+.header-top {
+  height: 120px;
+  background-color: white;
+  display: flex;
+}
+.header-top-right {
+  padding: 0px 58px;
+  width: 992px;
+}
+.shaparak-logo {
+  height: 120px;
+}
+.header-top-left {
+  padding-top: 21px;
+}
+.header-top-left-bottom {
+  margin-top: 2px;
+  display: flex;
+  vertical-align: middle;
+}
+.header-bottom {
+  height: 40px;
+  background-color: #0D4563;
+}
+.header-bottom-inside {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 56px;
+  width: 518px;
+}
+.header-bottom-text {
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+  padding: 9px 22px 0 22px;
+  transition: 0.15s;
+  text-decoration: none;
+  height: 30px;
+}
+.header-bottom-text:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+a:link {
+  text-decoration: none;
+}
+.search-input,
+.search-button {
+  font-family: 'farhang';
+  transition: 0.15s;
+}
+.search-input {
+  font-size: 14px;
+  background-color: rgb(228, 229, 230);
+  border: none;
+  border-radius: 0 6px 6px 0;
+  padding: 6px 8px 6px 0;
+  width: 284px;
+}
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgb(206, 230, 255);
+}
+.search-input::placeholder {
+  color: rgb(145, 147, 150);
+}
+.search-button {
+  background-color: #0D4563;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  padding: 6px 7px 4px 7px;
+  cursor: pointer;
+}
+.search-button:hover {
+  background-color: rgb(19, 96, 138);
+}
+.search-icon {
+  height: 14px;
+}

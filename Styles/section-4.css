@@ -1,0 +1,196 @@
+.section4 {
+  position: absolute;
+  top: 766px;
+  width: 1519px;
+  height: 584px;
+  background-color: rgb(231,232,233);
+}
+.section4-p {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 900;
+  color: rgb(89,90,92);
+  top: 14px;
+  right: 60px;
+}
+.section4-box1 {
+  position: absolute;
+  top: 56px;
+  right: 58px;
+  width: 437px;
+  height: 400px;
+  border-radius: 5px;
+  background-color: white;
+}
+.section4-box2 {
+  position: absolute;
+  top: 56px;
+  right: 526px;
+  width: 436px;
+  height: 510px;
+  border-radius: 5px;
+  background-color: white;
+}
+.section4-box3 {
+  position: absolute;
+  top: 56px;
+  right: 992px;
+  width: 437px;
+  height: 510px;
+  border-radius: 5px;
+  background-color: white;
+}
+.section4-box1-img {
+  position: absolute;
+  top: 30px;
+  right:29px;
+  height: 198px;
+  border-radius: 6px;
+}
+.section4-box1-picture-header {
+  font-size: 13px;
+  background-color: rgb(179,15,32);
+  position: absolute;
+  color: rgb(179,194,211);
+  top: 34px;
+  right: 32px;
+  padding: 0 5px 1px 5px;
+  border-radius: 4px;
+}
+.green-tip-box {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  background-color: rgb(55,179,74);
+  top: 11px;
+}
+.green-tip-news {
+  position: absolute;
+  top: 7px;
+  left: 68px;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(64,64,65);
+}
+.section4-box1-div {
+  position: absolute;
+  top: 274px;
+  right: 30px;
+  width: 377px;
+  height: 35px;
+}
+.section4-box1-date {
+  color: rgb(109,110,112);
+  font-size: 13px;
+  position: absolute;
+  top: 350px;
+  right: 30px;
+}
+.section4-box2-div {
+  width: 400px;
+  height: 80px;
+  margin-right: 17px;
+  margin-top: 30px;
+  position: relative;
+  margin-bottom: 100px;
+  transition: 0.15s;
+}
+.section4-box2-picture-header {
+  position: absolute;
+  width: 106px;
+  margin-top: 8px;
+  margin-right: 7px;
+  border-radius: 4px;
+}
+.section4-box2-div-r1 {
+  color: rgb(64,64,65);
+  position: absolute;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  right: 132px;
+}
+.section4-box2-div-r2 {
+  position: absolute;
+  color: rgb(109,110,112);
+  font-size: 13px;
+  right: 132px;
+  top: 62px;
+}
+.section4-box2:hover div {
+  opacity: 0.7;
+  filter: grayscale(100);
+}
+.section4-box2:hover div:hover {
+  opacity: 1;
+  filter: none;
+}
+.black-tip-box {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  background-color: rgb(88,89,91);
+  top: 4px;
+}
+.black-tip-news {
+  position: absolute;
+  right: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(64,64,65);
+}
+.section4-box3-div-first {
+  width: 400px;
+  height: 20px;
+  margin-top: 32px;
+  margin-right: 19px;
+  position: relative;
+  margin-bottom: 10px;
+  transition: 0.15s;
+}
+.section4-box3-div-2nd {
+  width: 400px;
+  height: 20px;
+  top: 1px;
+  margin-top: 10px;
+  margin-right: 19px;
+  position: relative;
+  margin-bottom: 10px;
+  transition: 0.15s;
+}
+.section4-box3-end {
+  padding-top: 11px;
+  position: relative;
+}
+.black-tip-box-end {
+  position: absolute;
+  color: rgb(89,90,92);
+  right: 320px;
+  font-size: 24px;
+}
+.black-tip-news-end {
+  color: rgb(89,90,92);
+  font-weight: 700;
+  font-size: 15px;
+  position: absolute;
+  right: 330px;
+}
+.section4-box3:hover .section4-box3-div-2nd,
+.section4-box3:hover .section4-box3-end,
+.section4-box3:hover .section4-box3-div-first {
+  opacity: 0.8;
+  filter: grayscale(100);
+}
+.section4-box3:hover .section4-box3-div-2nd:hover,
+.section4-box3:hover .section4-box3-end:hover,
+.section4-box3:hover .section4-box3-div-first:hover {
+  opacity: 1;
+  filter: none;
+}
+.section4-box3:hover .section4-box3-end:hover .black-tip-box-end {
+  color: rgb(55,179,74);
+}
+.section4-box3:hover .section4-box3-div-2nd:hover .black-tip-box,
+.section4-box3:hover .section4-box3-div-first:hover .black-tip-box {
+  background-color: rgb(55,179,74);
+}

@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  height: 1680px;
+  direction: rtl;
+  font-family: 'farhang';
+}
+@font-face {
+  font-family: 'farhang';
+  src: url(fonts/farhang2-100.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'farhang';
+  src: url(fonts/farhang2-200.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'farhang';
+  src: url(fonts/farhang2-300.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'farhang';
+  src: url(fonts/farhang2-400.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'farhang';
+  src: url(fonts/farhang2-500.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'farhang';
+  src: url(fonts/farhang2-600.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'farhang';
+  src: url(fonts/farhang2-700.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'farhang';
+  src: url(fonts/farhang2-800.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'farhang';
+  src: url(fonts/farhang2-900.ttf);
+  font-weight: 900;
+}
